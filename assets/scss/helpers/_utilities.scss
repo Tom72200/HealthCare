@@ -1,0 +1,49 @@
+.h1underline{
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.icons{
+position: absolute;
+bottom: 120px;
+margin-left: auto;
+margin-right: auto;
+left: 50px;
+height: 30px;
+bottom: 130px;
+text-align: center;
+display: flex;
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.doctor-img{
+  margin-left: 10px;
+}
+
+
+.MDCL{
+  color: #4D4D89;
+  font-family: "Times New Roman";
+  }
+
+.critic{
+  position: absolute;
+}
+.cardcritic{
+  position: absolute;
+  left: 320px;
+  top: 320px;
+}
+.critic2{
+  position: absolute;
+  display: flex;
+  left: 500px;
+  top: -130px;
+}
+.maincritic{
+  position: absolute;
+  left: 165px;
+  bottom: 150px;
+}
