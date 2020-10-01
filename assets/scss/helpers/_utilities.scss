@@ -31,12 +31,6 @@ justify-content: center;
 .critic{
   position: absolute;
 }
-.critic2{
-  position: absolute;
-  display: flex;
-  left: 500px;
-  top: -130px;
-}
 
 .critic-card{
   position: absolute;
@@ -54,3 +48,23 @@ justify-content: center;
   left: 170px;
   top: 25px;
 }
+
+.critic2{
+  left: 600px;
+  top: -140px;
+}
+
+.person6{
+ position: relative;
+ left: 100px;
+}
+
+.person1{
+  position: relative;
+  left: 30px;
+ }
+
+ .person2{
+  position: relative;
+  left: 30px;
+ }

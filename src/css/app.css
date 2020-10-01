@@ -7269,12 +7269,6 @@ a.text-dark:hover, a.text-dark:focus {
 .critic {
   position: absolute; }
 
-.critic2 {
-  position: absolute;
-  display: flex;
-  left: 500px;
-  top: -130px; }
-
 .critic-card {
   position: absolute;
   left: 680px;
@@ -7289,6 +7283,22 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   left: 170px;
   top: 25px; }
+
+.critic2 {
+  left: 600px;
+  top: -140px; }
+
+.person6 {
+  position: relative;
+  left: 100px; }
+
+.person1 {
+  position: relative;
+  left: 30px; }
+
+.person2 {
+  position: relative;
+  left: 30px; }
 
 .font-size-08 {
   font-size: 0.8rem; }
