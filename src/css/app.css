@@ -7300,6 +7300,10 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   left: 30px; }
 
+.person3 {
+  position: relative;
+  right: 55px; }
+
 .font-size-08 {
   font-size: 0.8rem; }
 
