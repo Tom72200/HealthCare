@@ -7231,13 +7231,6 @@ a.text-dark:hover, a.text-dark:focus {
   height: 45px;
   width: 40px; }
 
-.world {
-  display: block;
-  position: relative;
-  background-image: url(/assets/images/map.png);
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .text-purple {
   color: #5347E8; }
 
@@ -7279,7 +7272,7 @@ a.text-dark:hover, a.text-dark:focus {
 .cardcritic {
   position: absolute;
   left: 320px;
-  top: 320px; }
+  top: 100px; }
 
 .critic2 {
   position: absolute;
