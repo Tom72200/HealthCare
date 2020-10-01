@@ -31,20 +31,26 @@ justify-content: center;
 .critic{
   position: absolute;
 }
-.cardcritic{
-  position: absolute;
-  left: 320px;
-  top: 100px;
-}
 .critic2{
   position: absolute;
   display: flex;
   left: 500px;
   top: -130px;
 }
-.maincritic{
+
+.critic-card{
   position: absolute;
-  left: 165px;
-  bottom: 150px;
+  left: 680px;
+  margin-top: 150px;
 }
 
+.card-picture{
+  position: absolute;
+  bottom: 300px;
+  left: 175px;
+}
+.card-name{
+  position: relative;
+  left: 170px;
+  top: 25px;
+}
