@@ -73,3 +73,20 @@ justify-content: center;
    position: relative;
    right: 55px;
  }
+
+.icons :hover{
+  background-color: #5347E8;
+  color: white;
+  cursor: pointer;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #333333;
+  font-weight: bold;
+}
+
+.calendar{
+  position: absolute;
+  margin-left: 175px;
+  margin-top: 10px;
+}

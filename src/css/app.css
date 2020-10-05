@@ -7237,6 +7237,9 @@ a.text-dark:hover, a.text-dark:focus {
 .text-darkblue {
   color: #4D4D89; }
 
+.text-black {
+  color: #333333; }
+
 .border-purple {
   color: #5347E8; }
 
@@ -7304,6 +7307,20 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   right: 55px; }
 
+.icons :hover {
+  background-color: #5347E8;
+  color: white;
+  cursor: pointer; }
+
+.form-control::-webkit-input-placeholder {
+  color: #333333;
+  font-weight: bold; }
+
+.calendar {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: 10px; }
+
 .font-size-08 {
   font-size: 0.8rem; }
 
@@ -7348,6 +7365,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .font-size-22 {
   font-size: 2.2rem; }
+
+.font-size-35 {
+  font-size: 3.5rem; }
 
 .w-15 {
   width: 15%; }
