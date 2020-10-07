@@ -87,12 +87,16 @@ justify-content: center;
 
 .calendar{
   position: absolute;
-  margin-left: 175px;
-  margin-top: 10px;
+  margin-left: 120px;
+  margin-top: 5px;
   cursor: pointer;
 }
 
 .form-control{
   cursor: pointer;
+}
+
+input{
+  color: #333333;
 }
 
