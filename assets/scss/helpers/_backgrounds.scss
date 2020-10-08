@@ -30,7 +30,9 @@
 }
 
 .bg-main{
-  background-color: #F1F5FF;
+  background-color: #F0F3FF;
   height: 1100px;
   background-image: url("/assets/images/dots.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
 }
