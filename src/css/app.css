@@ -7231,6 +7231,11 @@ a.text-dark:hover, a.text-dark:focus {
   height: 45px;
   width: 40px; }
 
+.bg-main {
+  background-color: #F1F5FF;
+  height: 1100px;
+  background-image: url(assets/images/dots.png); }
+
 .text-purple {
   color: #5347E8; }
 
@@ -7316,17 +7321,18 @@ a.text-dark:hover, a.text-dark:focus {
   color: #333333;
   font-weight: bold; }
 
-.calendar {
-  position: absolute;
-  margin-left: 120px;
-  margin-top: 5px;
-  cursor: pointer; }
-
 .form-control {
   cursor: pointer; }
 
 input {
   color: #333333; }
+
+.dots {
+  position: absolute;
+  bottom: -120px;
+  left: 10px;
+  background-image: url(/assets/images/dots.jpg);
+  background-repeat: repeat; }
 
 .font-size-08 {
   font-size: 0.8rem; }
