@@ -21,21 +21,44 @@
   <div class="container-fluid bg-main">
     <div class="container">
       <header>
-        <div class="row justify-content-between">
-          <div class="d-flex row">
-            <img class="mt-2" src="assets/images/medic.png">
-            <h2 class="mt-4">HealthCare</h2>
-          </div>
-          <div class="text-center d-flex align-items-center justify-content-center Hind400 mt-2">
-            <h5 class="mx-3 font-weight-bold">Home</h5>
-            <h5 class="mx-3 font-weight-bold">About</h5>
-            <h5 class="mx-3 font-weight-bold">Services</h5>
-            <h5 class="mx-3 font-weight-bold">Doctors</h5>
-            <h5 class="mx-3 font-weight-bold">Blog</h5>
-          </div>
-          <div>
+        <div class="d-flex flex-sm-row flex-column align-items-center justify-content-between">
+
+          <nav
+            class="navbar d-flex align-items-center justify-content-between px-sm-0 flex-grow-1 navbar-expand-lg navbar-light bg-nav">
+
+            <div style="margin-left: -27px;" class="d-flex navbar-brand mr-0 align-items-center">
+              <img src="assets/images/medic.png">
+              <h2>HealthCare</h2>
+            </div>
+
+            <button class="navbar-toggler px-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav w-100 d-flex justify-content-center ">
+                <li class="nav-item active">
+                  <a class="nav-link font-size-12 text-black" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black font-size-12" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black font-size-12" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black font-size-12" href="#">Doctors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black font-size-12" href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="d-flex align-items-center justify-content-center">
             <button
-              class="btn-lg btn-purple text-white Hind600 px-4 py-3 border-0 mt-4 rounded-large shadow font-size-11">Appointment</button>
+              class="btn-lg btn-purple text-white Hind600 px-4 py-3 border-0 rounded-large shadow font-size-11">Appointment</button>
           </div>
         </div>
     </div>
@@ -49,74 +72,73 @@
       <h1 class="text-center mt-5 pt-5 montserrat700 font-size-35 text-dark">We offer Medical <br>Health Services for
         all
         Ages</br></h1>
-      <div class="d-flex justify-content-center mt-5">
-        <div>
-          <button class="mr-3 btn-lg px-5 py-3 rounded-xl border-0 btn-purple text-white Hind500">Our
-            Services</button>
-        </div>
-        <div>
-          <button class="btn-lg border-0 px-5 py-3 ml-4 rounded-xl btn-grey text-purple Hind500">More
-            Info</button>
-        </div>
+      <div class="d-flex flex-sm-row flex-column align-items-stretch alig-items-sm-center justify-content-center mt-5">
+        <button class="mr-sm-3 btn-lg px-5 py-3 rounded-xl border-0 btn-purple text-white Hind500">Our
+          Services</button>
+        <button class="btn-lg border-0 px-5 py-3 ml-sm-4 mt-4 mt-sm-0 rounded-xl btn-grey text-purple Hind500">More
+          Info</button>
       </div>
     </div>
 
 
-    <div class="container d-flex justify-content-center mt-5 pt-5">
-      <img src="assets/images/research.png">
+    <div class="container d-flex justify-content-center mt-lg-5 pt-lg-5 mt-5">
+      <img class="img-fluid" src="assets/images/research.png">
     </div>
 
 
 
-    <div class="container p-4 mb-5 bg-white rounded-large shadow-lg">
-      <div class="row d-flex justify-content-around align-items-center">
+    <div class="container">
+
+      <div class="card p-4 mb-5 bg-white border-0 rounded-large shadow-lg">
 
 
-        <div>
-          <h6 class="text-muted ml-3">Doctors name</h6>
-          <select class="form-control font-weight-bold text-dark border-0">
-            <option>Dr John Doe</option>
-          </select>
-          <div>
-            <div class="progress ml-3" style="height: 1px;">
-              <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div>
+        <div class="d-flex justify-content-between align-items-center">
+
+          <div class="col-lg-3">
+            <h6 class="text-muted ml-1">Doctors name</h6>
+            <select class="form-control px-0 font-weight-bold text-dark border-0">
+              <option>Dr John Doe</option>
+            </select>
+            <div>
+              <div class="progress" style="height: 1px;">
+                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
             </div>
           </div>
-        </div>
 
-
-        <div>
-          <h6 class="text-muted ml-3">Speciality</h6>
-          <select class="form-control border-0 font-weight-bold text-dark">
-            <option>Neurology MBBS</option>
-          </select>
-          <div>
-            <div class="progress ml-3" style="height: 1px;">
-              <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div>
+          <div class="col-lg-3">
+            <h6 class="text-muted ml-1">Speciality</h6>
+            <select class="form-control px-0 border-0 font-weight-bold text-dark">
+              <option class="px-0">Neurology MBBS</option>
+            </select>
+            <div>
+              <div class="progress" style="height: 1px;">
+                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
             </div>
           </div>
-        </div>
 
 
-        <div>
-          <h6 class="text-muted pl-1 mb-2 pb-2">Date</h6>
-          <div>
-            <input class="border-0 Hind600" id="date" type="date" value="2020-04-08">
-          </div>
+          <div class="col-lg-3">
+            <h6 class="text-muted mb-2 pb-2">Date</h6>
+            <div>
+              <input class="border-0 Hind600" id="date" type="date" value="2020-04-08">
+            </div>
 
 
-          <div>
-            <div class="progress ml-1 mt-1" style="height: 1px; width: 95%">
-              <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div>
+            <div>
+              <div class="progress mt-1" style="height: 1px; width: 67%">
+                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div>
-          <button class="btn-lg btn-purple text-white Hind600 border-0 rounded-xl py-4 px-4">Book Now</button>
+          <div class="col-lg-2">
+            <button class="btn-lg btn-purple text-white Hind600 border-0 rounded-xl py-4 px-4">Book Now</button>
+          </div>
         </div>
       </div>
     </div>
@@ -130,14 +152,14 @@
   <!-- !!Cards!! -->
 
   <div class="container pt-5 mt-5">
-    <div class="d-flex justify-content-between row pt-5 mt-5">
+    <div class="d-flex justify-content-between pt-5 mt-5">
       <h1 class="montserrat600">Our Services</h1>
       <div>
         <button type="button" class="btn-lg btn-outline-purple px-4 rounded-large Hind400 text-center">All
           Services</button>
       </div>
     </div>
-    <div class="row">
+    <div>
       <div style="height: 5px;" class="progress w-15 mt-3">
         <div class="progress-bar bg-darkpurple" role="progressbar" style="width: 100%" aria-valuenow="100"
           aria-valuemin="0" aria-valuemax="100"></div>
@@ -149,72 +171,79 @@
 
   <div class="container mb-5 pb-5">
     <div class="d-flex row mt-5 justify-content-between">
-      <div class="card rounded-xl shadow-lg p-4" style="height: 24rem; width: 22rem;">
-        <img src="assets/images/icon.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Intensive Care</h5>
-          <p class="card-text text-center text-muted hind400 mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
-            salmet
-            conse dispicing elite consequat.</p>
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div class="card rounded-xl shadow-lg p-4 mb-5 mb-lg-0" style="height: 24rem; width: 22rem;">
+          <img src="assets/images/icon.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Intensive Care</h5>
+            <p class="card-text text-center text-muted hind400 mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
+              salmet
+              conse dispicing elite consequat.</p>
+          </div>
         </div>
       </div>
 
 
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div class="card rounded-xl shadow-lg p-4 mb-5 mb-lg-0" style="height: 24rem; width: 22rem;">
+          <img src="assets/images/icondeux.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Online Medicine</h5>
+            <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
+              salmet
+              conse dispicing elite consequat.</p>
+          </div>
+        </div>
+      </div>
 
-      <div class="card rounded-xl shadow-lg p-4" style="height: 24rem; width: 22rem;">
-        <img src="assets/images/icondeux.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Online Medicine</h5>
-          <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
-            salmet
-            conse dispicing elite consequat.</p>
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div class="card rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
+          <img src="assets/images/icontrois.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Health Check</h5>
+            <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
+              salmet
+              conse dispicing elite consequat.</p>
+          </div>
         </div>
       </div>
 
 
-      <div class="card rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
-        <img src="assets/images/icontrois.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Health Check</h5>
-          <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
-            salmet
-            conse dispicing elite consequat.</p>
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div class="card mt-5 rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
+          <img src="assets/images/iconquatre.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Laboratory Tasts</h5>
+            <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
+              salmet
+              conse dispicing elite consequat.</p>
+          </div>
         </div>
       </div>
 
 
-
-      <div class="card mt-5 rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
-        <img src="assets/images/iconquatre.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Laboratory Tasts</h5>
-          <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
-            salmet
-            conse dispicing elite consequat.</p>
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div class="card mt-5 rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
+          <img src="assets/images/iconcinq.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center montserrat700 mb-4 font-size-14">General Dentistry</h5>
+            <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
+              salmet
+              conse dispicing elite consequat.</p>
+          </div>
         </div>
       </div>
 
 
-
-      <div class="card mt-5 rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
-        <img src="assets/images/iconcinq.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center montserrat700 mb-4 font-size-14">General Dentistry</h5>
-          <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
-            salmet
-            conse dispicing elite consequat.</p>
-        </div>
-      </div>
-
-
-
-      <div class="card mt-5 rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
-        <img src="assets/images/iconsix.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Urgent Surgery</h5>
-          <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
-            salmet
-            conse dispicing elite consequat.</p>
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div class="card mt-5 rounded-xl shadow-lg p-3" style="height: 24rem; width: 22rem;">
+          <img src="assets/images/iconsix.png" class="card-img-top w-30 d-block mx-auto mt-4 pt-1 mb-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center montserrat700 mb-4 font-size-14">Urgent Surgery</h5>
+            <p class="card-text text-center hind400 text-muted mb-4">Consecteture adipiscing eliter Lorem ipsum dolor
+              salmet
+              conse dispicing elite consequat.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -224,10 +253,10 @@
   <!-- !!!End of Cards Section!!! -->
 
   <div class="container pt-5 pt-5">
-    <div class="row mt-5">
+    <div class="row mt-5 justify-content-center justify-content-lg-start">
       <h1 class="mb-4 montserrat600">Why Choose Us</h1>
     </div>
-    <div class="row">
+    <div class="row justify-content-center justify-content-lg-start">
       <div style="height: 5px;" class="progress w-15 mb-5">
         <div class="progress-bar bg-darkpurple" role="progressbar" style="width: 100%" aria-valuenow="100"
           aria-valuemin="0" aria-valuemax="100"></div>
@@ -240,10 +269,10 @@
   <div class="container mb-5 pb-5">
     <div class="d-flex">
       <div class="row pt-2">
-        <div class="card mb-5 bg-card border-0 rounded-large d-flex justify-content-center" style="max-width: 500px;">
+        <div class="card mb-5 bg-card border-0 rounded-large d-flex justify-content-center">
           <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="assets/images/hospital.png" class="card-img w-65 ml-4 mt-2 pt-2" alt="...">
+            <div class="col-12 col-lg-4">
+              <img src="assets/images/hospital.png" class="card-img w-65 ml-4" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -258,10 +287,10 @@
 
 
 
-        <div class="card mb-5 bg-card border-0 rounded-large d-flex justify-content-center" style="max-width: 500px;">
+        <div class="card mb-5 bg-card border-0 rounded-large d-flex justify-content-center">
           <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="assets/images/patient.png" class="card-img w-65  ml-4 mt-2 pt-2" alt="...">
+            <div class="col-12 col-lg-4">
+              <img src="assets/images/patient.png" class="card-img w-65  ml-4" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -274,11 +303,10 @@
         </div>
 
 
-        <div class="card cards mb-3 bg-card border-0 rounded-large d-flex justify-content-center"
-          style="max-width: 500px;">
+        <div class="card cards mb-3 bg-card border-0 rounded-large d-flex justify-content-center">
           <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="assets/images/ambulance.png" class="card-img w-65  ml-4 mt-2 pt-2" alt="...">
+            <div class="col-12 col-lg-4">
+              <img src="assets/images/ambulance.png" class="card-img w-65  ml-4" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -292,7 +320,7 @@
       </div>
 
 
-      <div class="row doctor-img">
+      <div class="doctor-img col-12 col-lg-6">
         <img class="ml-3" src="assets/images/doctor.png">
       </div>
     </div>
@@ -301,7 +329,7 @@
   <div class="container-fluid bg-lightblue py-5">
     <div class="container mb-5">
       <div class="mt-5 pt-5">
-        <div class="row d-flex justify-content-between">
+        <div class="d-flex justify-content-between">
           <div>
             <h1 class="montserrat600">Our Doctors</h1>
             <div style="height: 5px;" class="progress w-75 mt-4">
@@ -312,7 +340,9 @@
 
 
           <div>
-            <img class="mx-3 px-3" src="assets/images/leftarrow.png">
+            <button class="bg-lightblue py-3 border-0 rounded-large" aria-pressed="true">
+              <img class="mx-2 px-2" src="assets/images/leftarrow.png">
+            </button>
             <button class="bg-lightpink px-4 py-3 border-0 rounded-large" aria-pressed="true">
               <img src="assets/images/rightarrow.png">
             </button>
@@ -321,60 +351,67 @@
 
 
         <div class="row d-flex justify-content-between mt-5">
-          <div class="card rounded-xl shadow-lg" style="width: 22rem;">
-            <div class="icons">
-              <i
-                class="fab fa-instagram hover bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-facebook-f bg-whiteicon  rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-vimeo-v bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-twitter bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-            </div>
-            <img src="assets/images/medic1.png" class="card-img-top bg-lightpurple" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center montserrat700">Steven Jacobs</h5>
-              <p class="card-text text-center Hind500">Neurosurgeon</p>
-            </div>
-          </div>
-
-
-          <div class="card rounded-xl shadow-lg" style="width: 22rem;">
-            <div class="icons">
-              <i
-                class="fab fa-instagram bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-facebook-f bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-vimeo-v bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-twitter bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
-            </div>
-            <img src="assets/images/medic2.png" class="card-img-top bg-lightpurple" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center montserrat700">Steven Jacobs</h5>
-              <p class="card-text text-center Hind500">Neurosurgeon</p>
+          <div class="col-lg-4">
+            <div class="card rounded-xl shadow-lg">
+              <div class="icons">
+                <i
+                  class="fab fa-instagram hover bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-facebook-f bg-whiteicon  rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-vimeo-v bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-twitter bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+              </div>
+              <img src="assets/images/medic1.png" class="card-img-top bg-lightpurple" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center montserrat700">Steven Jacobs</h5>
+                <p class="card-text text-center Hind500">Neurosurgeon</p>
+              </div>
             </div>
           </div>
 
+          <div class="col-lg-4">
 
-          <div class="card rounded-xl shadow-lg" style="width: 22rem;">
-            <div class="icons">
-              <i
-                class="fab fa-instagram bg-whiteicon d-flex align-items-center rounded-large justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-facebook-f bg-whiteicon d-flex align-items-center rounded-large justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-vimeo-v bg-whiteicon d-flex align-items-center rounded-large justify-content-center fa-lg mx-1"></i>
-              <i
-                class="fab fa-twitter bg-whiteicon d-flex align-items-center justify-content-center rounded-large fa-lg mx-1"></i>
+            <div class="card rounded-xl shadow-lg mt-4 mt-lg-0">
+              <div class="icons">
+                <i
+                  class="fab fa-instagram bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-facebook-f bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-vimeo-v bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-twitter bg-whiteicon rounded-large d-flex align-items-center justify-content-center fa-lg mx-1"></i>
+              </div>
+              <img src="assets/images/medic2.png" class="card-img-top bg-lightpurple" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center montserrat700">Steven Jacobs</h5>
+                <p class="card-text text-center Hind500">Neurosurgeon</p>
+              </div>
             </div>
-            <img src="assets/images/medic3.png" class="card-img-top bg-lightpurple" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center montserrat700">Steven Jacobs</h5>
-              <p class="card-text text-center Hind500">Neurosurgeon</p>
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="card rounded-xl shadow-lg mt-4 mt-lg-0">
+              <div class="icons">
+                <i
+                  class="fab fa-instagram bg-whiteicon d-flex align-items-center rounded-large justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-facebook-f bg-whiteicon d-flex align-items-center rounded-large justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-vimeo-v bg-whiteicon d-flex align-items-center rounded-large justify-content-center fa-lg mx-1"></i>
+                <i
+                  class="fab fa-twitter bg-whiteicon d-flex align-items-center justify-content-center rounded-large fa-lg mx-1"></i>
+              </div>
+              <img src="assets/images/medic3.png" class="card-img-top bg-lightpurple" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center montserrat700">Steven Jacobs</h5>
+                <p class="card-text text-center Hind500">Neurosurgeon</p>
+              </div>
             </div>
+
           </div>
 
         </div>
@@ -393,10 +430,10 @@
 
 
   <div class="container">
-    <div class="row d-flex justify-content-center mt-5 pt-5">
-      <h1 class="montserrat600">Our Patients Saying</h1>
+    <div class="d-flex justify-content-center mt-5 pt-5">
+      <h1 class="montserrat600 text-center">Our Patients Saying</h1>
     </div>
-    <div class="row d-flex justify-content-center mb-5 pb-5">
+    <div class="d-flex justify-content-center mb-5 pb-5">
       <div style="height: 5px;" class="progress w-15 mt-3">
         <div class="progress-bar bg-darkpurple" role="progressbar" style="width: 100%" aria-valuenow="100"
           aria-valuemin="0" aria-valuemax="100"></div>
@@ -464,8 +501,10 @@
       <div class="row mt-5 pt-5 pb-5 d-flex justify-content-between">
         <div>
           <div class="row d-flex align-items-center mb-4 pb-2">
-            <img class="mr-2" src="assets/images/cross.png">
-            <h2 class="text-darkblue mt-2 MDCL">MDCL</h2>
+            <div class="d-flex justify-content-center">
+              <img class="mr-2" src="assets/images/cross.png">
+              <h2 class="text-darkblue mt-2 MDCL">MDCL</h2>
+            </div>
           </div>
           <p class="text-muted Hind500">1288 Kings Way</p>
           <p class="text-muted Hind500">King Street, 5th Avenue New-York</p>
@@ -525,9 +564,9 @@
   <footer>
     <div class="container-fluid bg-darkpurple">
       <div class="container p-2">
-        <div class="row d-flex justify-content-between align-items-center">
-          <p class="text-white mt-3 Hind400">Copyright@Milton 2020, All Rights Reserved.</p>
-          <div>
+        <div class="d-flex justify-content-between align-items-center row">
+          <p class="text-white mt-3 Hind400 ml-4 ml-lg-0">Copyright@Milton 2020, All Rights Reserved.</p>
+          <div class="row ml-5 pl-5 ml-lg-0 pl-lg-0">
             <i class="fab fa-youtube text-white mx-2"></i>
             <i class="fab fa-instagram text-white mx-2"></i>
             <i class="fab fa-instagram text-white mx-2"></i>

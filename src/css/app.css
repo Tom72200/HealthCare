@@ -7238,6 +7238,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: repeat-x;
   background-position: bottom; }
 
+.bg-nav {
+  background-color: #F0F3FF; }
+
 .text-purple {
   color: #5347E8; }
 
@@ -7245,7 +7248,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #4D4D89; }
 
 .text-black {
-  color: #333333; }
+  color: #000000; }
 
 .border-purple {
   color: #5347E8; }
@@ -7256,12 +7259,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .icons {
   position: absolute;
-  bottom: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 85px;
+  bottom: 140px;
+  left: 77px;
   height: 40px;
-  bottom: 130px;
   text-align: center;
   display: flex;
   color: black;
