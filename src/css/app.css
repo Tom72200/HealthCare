@@ -7245,10 +7245,13 @@ a.text-dark:hover, a.text-dark:focus {
   color: #5347E8; }
 
 .text-darkblue {
-  color: #4D4D89; }
+  color: #9798B4; }
 
 .text-black {
   color: #000000; }
+
+.text-darkpurple {
+  color: #4D4D89; }
 
 .border-purple {
   color: #5347E8; }
@@ -7303,14 +7306,18 @@ input {
 
 .card-map {
   position: absolute;
-  bottom: 115px;
-  left: 190px; }
+  bottom: 110px; }
 
 body {
   width: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; }
+
+.cross {
+  position: relative;
+  bottom: 15px;
+  margin-right: 15px; }
 
 .font-size-08 {
   font-size: 0.8rem; }
