@@ -7259,15 +7259,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .icons {
   position: absolute;
-  bottom: 140px;
-  left: 77px;
-  height: 40px;
-  text-align: center;
-  display: flex;
   color: black;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  bottom: 130px; }
 
 .doctor-img {
   margin-left: 10px; }
@@ -7275,14 +7270,6 @@ a.text-dark:hover, a.text-dark:focus {
 .MDCL {
   color: #4D4D89;
   font-family: "Times New Roman"; }
-
-.critic {
-  position: absolute; }
-
-.critic-card {
-  position: absolute;
-  left: 680px;
-  margin-top: 150px; }
 
 .card-picture {
   position: absolute;
@@ -7293,26 +7280,6 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   left: 170px;
   top: 25px; }
-
-.critic2 {
-  left: 600px;
-  top: -140px; }
-
-.person6 {
-  position: relative;
-  left: 100px; }
-
-.person1 {
-  position: relative;
-  left: 30px; }
-
-.person2 {
-  position: relative;
-  left: 30px; }
-
-.person3 {
-  position: relative;
-  right: 55px; }
 
 .icons :hover {
   background-color: #5347E8;
@@ -7328,6 +7295,22 @@ a.text-dark:hover, a.text-dark:focus {
 
 input {
   color: #333333; }
+
+.map {
+  background-image: url(/assets/images/map.png);
+  width: 1171px;
+  height: 592px; }
+
+.card-map {
+  position: absolute;
+  bottom: 115px;
+  left: 190px; }
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 .font-size-08 {
   font-size: 0.8rem; }

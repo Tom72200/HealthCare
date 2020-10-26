@@ -4,15 +4,10 @@
 }
 .icons{
 position: absolute;
-bottom: 140px;
-left: 77px;
-height: 40px;
-text-align: center;
-display: flex;
 color: black;
 display: flex;
-align-items: center;
 justify-content: center;
+bottom: 130px;
 }
 
 .doctor-img{
@@ -25,15 +20,6 @@ justify-content: center;
   font-family: "Times New Roman";
   }
 
-.critic{
-  position: absolute;
-}
-
-.critic-card{
-  position: absolute;
-  left: 680px;
-  margin-top: 150px;
-}
 
 .card-picture{
   position: absolute;
@@ -45,31 +31,6 @@ justify-content: center;
   left: 170px;
   top: 25px;
 }
-
-.critic2{
-  left: 600px;
-  top: -140px;
-}
-
-.person6{
- position: relative;
- left: 100px;
-}
-
-.person1{
-  position: relative;
-  left: 30px;
- }
-
- .person2{
-  position: relative;
-  left: 30px;
- }
- 
- .person3{
-   position: relative;
-   right: 55px;
- }
 
 .icons :hover{
   background-color: #5347E8;
@@ -88,4 +49,21 @@ justify-content: center;
 
 input{
   color: #333333;
+}
+
+.map{
+  background-image: url(/assets/images/map.png);
+  width: 1171px;
+  height: 592px;
+}
+.card-map{
+  position: absolute;
+  bottom: 115px;
+  left: 190px;
+}
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
