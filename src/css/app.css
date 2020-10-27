@@ -7318,6 +7318,9 @@ body {
   bottom: 15px;
   margin-right: 15px; }
 
+.card-selector {
+  position: absolute; }
+
 .font-size-08 {
   font-size: 0.8rem; }
 
